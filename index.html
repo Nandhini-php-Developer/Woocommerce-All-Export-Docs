@@ -1,0 +1,258 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>ALL Export Woocommerce Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="assets/blueprint-css/image.css" type="text/css">
+	<link rel="stylesheet" href="assets/js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+	<script type='text/javascript' src='assets/js/jquery.js'></script>
+	<script src="assets/js/prettyPhoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>	
+	<script type='text/javascript' src='assets/js/custom.js'></script>
+</head>
+
+
+<body>
+	<div class="container">
+		<h3 class="center alt"><span class="center">ALL Export Woocommerce Plugin</span> Documentation by &ldquo; ShareSoft Technology &rdquo; v1.0</h3>
+		<hr/>
+		<h1 class="center">ALL Export Woocommerce Plugin </h1>
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 25-11-2023<br>
+					Last Update: 24-01-2024<br>
+					By: ShareSoft Technology <br>
+					Email: <a href="mailto:info@sharesoft.in"> ShareSoft Technology </a>
+					</strong></p>
+				<p class="prepend-top"><span class="small">Information about updates and new features in Plugin are announced on our Social Networks - Twitter and Facebook. Follow us on <a target="_blank" href="https://twitter.com/sharesofttec">Twitter</a> to stay tuned on updates and Connect with us on <a href="https://www.facebook.com/sharesofttec/" target="_blank">Facebook</a> for more detailed updates	</span><br/>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0"><strong>Hello! We would like to thank you for purchasing our plugin! :) </strong><br></p>
+				<p class="prepend-top append-0">This file will explain you how to set up and use the “ALL Export overview” plugin. <br>
+					This file looks extensive so you might think that, the plugin is hard to use, but actually it's not! You probably might jump to the options page and explore everything yourself. This file is more of a reference help, if you do not know what to do, or if you are not familiar with WordPress.</p>
+				<p class="prepend-top append-0">Have fun with your new plugin! <br><br> 
+				<strong>Best regards, <br>ShareSoft Technology</strong></p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr/>
+
+		<div class='toc'>
+			<h2 id="toc" class="alt">Table of Contents</h2>
+			<ol class="alpha">
+				<li><a href="#plugin-overview">Overview</a></li>
+				<li><a href="#installation">Installation and setup (to get it like in our demo)</a>
+					<ol>
+						<li><a href="#install-plugin">Install plugin</a></li>
+						<li><a href="#install-depend-plugins">How to install through FTP</a></li>
+						<li><a href="#install-depend-plugins1">How to install through Admin Panel</a></li>
+					</ol>
+				</li>	
+				<li><a href="#install-plugin-func">How the plugin functions  </a>
+					<ol>
+						<li><a href="#admin">Admin features</a></li>
+						<li><a href="#FrontEnd">Export Woocommerce features</a></li>
+					</ol>
+				</li>
+								
+			</ol>
+		</div>
+		<hr/>
+		
+		<div class='real_content'>
+			<h2><span id="plugin-overview"><strong>Overview</strong> - <a href="#toc">top</a></span></h2>
+			<p>The ALL Export WooCommerce plugin is a powerful tool designed to simplify and streamline the process of exporting data from your WooCommerce store. It offers a user-friendly interface and a wide range of features to enhance your data exporting experience.</p>
+
+			<ol>
+				<li>Export Orders:</li>
+				<ul>
+					<li>Select specific order details such as billing information, shipping details, items, notes, taxes, and refunds.</li>
+					<li>Use drag-and-drop selection for easy customization of exported data fields.</li>
+					<li>Bulk select entire order field-groups for quick and efficient exporting.</li>
+					<li>Apply advanced filtering to target and export specific orders based on multiple-choice filters.</li>
+					<li>Filter orders by customer name.</li>
+					<li>Implement date filtering to export orders within specific date ranges.</li>
+				</ul>
+				<li>Export Customers:</li>
+				<ul>
+					<li>Choose customer-related data fields for export, ensuring flexibility in the exported information.</li>
+					<li>Utilize bulk selection on customer-related field-groups to streamline the exporting process.</li>
+					<li>Apply advanced filtering options to export specific customer data based on defined criteria.</li>
+					<li>Implement date range filtering to export customers within specific time frames.</li>
+					<li>Filter customers based on selected user roles, allowing targeted exports.</li>
+					<li>Easily filter customers by usernames or other relevant parameters for precise data extraction.</li>
+				</ul>
+				<li>Export Products:</li>
+				<ul>
+					<li>Select product details for export, including comprehensive information such as product details, variations, and custom fields (e.g., Advanced Custom Fields - ACF).</li>
+					<li>Implement bulk selection for product-related field-groups to expedite the export process.</li>
+					<li>Apply date range filtering to export products added or modified within specific time frames.</li>
+					<li>Filter products based on availability, allowing you to export only in-stock or out-of-stock items.</li>
+					<li>Set minimum and maximum price ranges for targeted exports based on price criteria.</li>
+					<li>Filter products by type (simple, variable, etc.) to export specific types of products.</li>
+					<li>Categorize and export products based on specific categories for a more refined data extraction process.</li>
+				</ul>
+				<li>Export Coupons:</li>
+				<ul>
+					<li>Easily export coupon details, such as coupon codes, discount amounts, and usage restrictions.</li>
+					<li>Use drag-and-drop selection for easy customization of exported data fields.</li>
+					<li>Bulk select entire order field-groups for quick and efficient exporting.</li>
+					<li>Implement date filtering to export coupons within specific date ranges.</li>
+				</ul>
+				<li>Export Reviews:</li>
+				<ul>
+					<li>Export product reviews with details such as reviewer names, ratings, and comments.</li>
+					<li>Use drag-and-drop selection for easy customization of exported data fields.</li>
+					<li>Bulk select entire order field-groups for quick and efficient exporting.</li>
+					<li>Implement date filtering to export reviews within specific date ranges.</li>
+				</ul>
+
+			</ol>
+			<p>After export, the file is available for download in two places:</p>
+			<ul>
+				<li>Export data in various formats, including CSV, Excel, XML, and JSON.</li>
+				<li>Plugin Inside Admin/Uploads Folder: Access the file from the WordPress Admin dashboard.</li>
+				<li>Default System Downloads Folder: Quickly find the file on your computer without returning to WordPress.</li>
+			</ul>
+			<p>In summary, the ALL Export WooCommerce plugin offers a comprehensive solution for efficient data exports, simplifying the process and enhancing your WooCommerce management experience.</p>
+			<p>&nbsp;</p>
+			<hr/>
+						
+			<h2><span id="installation"><strong>Installation</strong> - <a href="#toc">top</a></span></h2>
+			<h2><span id="install-plugin"><strong>2.1 Install plugin - <a href="#toc">top</a></strong></span></h2>
+					<p><br>
+						<strong>Install dependency plugin</strong><br />
+						<ul>
+						   <li>Initially install Wordpress as per online documentation.</li>
+						   <li>Download the woocommerce plugin.</li>
+						   <li>Then locate folder path /wp-content/plugins.</li>
+						   <li>Place the downloaded plugin in that folder and extract it.</li>
+						</ul>
+					</p>
+					<p>After that you can view the plugin added in the list in admin area,</p>
+					<img src="assets/images/export-images-designer/plugins name.jpg" class="bordergrey_leftttbottom">  
+
+			<h2><span id="install-depend-plugins"><strong>2.2 How to install through FTP #1- <a href="#toc">top</a></strong></span></h2>
+				<p><br>
+				<strong>Install  plugin</strong><br />
+				<ul>
+					<li>Initially install Wordpress as per online documentation.</li>
+					<li>Download the ALL Export Woocommerce plugin.</li>
+					<li>Then locate folder path /wp-content/plugins.</li>
+					<li>Place the downloaded plugin in that folder and extract it.</li>
+				</ul>
+			</p>
+			<p>After that you can view the plugin added in the list in admin area,</p>
+			<img src="images/plugin-name.jpg" class="bordergrey_leftttbottom">  
+
+			<h2><span id="install-depend-plugins1"><strong>2.3 How to install through Admin Panel- <a href="#toc">top</a></strong></span></h2>
+		    <p><br>
+				<strong>Install  plugin</strong><br />  
+				<ul>
+					<li>Initially install Wordpress as per online documentation.</li>
+					<li>Download the ALL Export woocommerce plugin.</li>
+					<li>Then Go to Wordpress admin panel -> plugins.</li>
+					<li>Click Add New --> select ALL Export woocommerce plugin Zip.</li><br>
+					<img src="assets/images/export-images-designer/upload.png" class="bordergrey_leftttbottom">  
+					<li>Install and active the plugin</li><br>
+					<img src="images/activate-plugin.png" class="bordergrey_leftttbottom">  
+				</ul>
+			</p>
+			<p>After that you can view the plugin added in the list in admin area,</p>
+			<img src="images/plugin-name.jpg" class="bordergrey_leftttbottom">  
+ 
+			<hr/>
+
+			<h2><span id="install-plugin-func"><strong>How the plugin functions - <a href="#toc">top</a></strong></span></h2>
+
+			<h2><span id="admin"><strong>3.1 Admin features-<a href="#toc">top</a></strong></span></h2>
+
+				<p>After activating the ALL Export Woocommerce plugin, next you have to manage Custom admin menu settings.</p>
+				<img src="images/sst all reports.jpg" class="bordergrey_leftttbottom"><br>
+				<p>Click Export Orders menu</p>
+            
+                <p>Image below, explains how the tabs are used.</p>				
+				<img src="assets/images/export-images-designer/export tab.jpg" class="bordergrey_leftttbottom"><br>
+				
+				<p>Image below , On the Export WooCommerce dashboard, you'll see a list of available data field groups to export.</p>
+				<img src="assets/images/export-images-designer/available-fields.png" class="bordergrey_leftttbottom"><br>
+				<p>Use the drag-and-drop interface to select specific data fields you want to include in the export.</p>
+				
+				<img src="assets/images/export-images-designer/drag field.jpg" class="bordergrey_leftttbottom"><br>
+				
+				
+               	<p>Image below, Alternatively, use the "Select All" button for bulk selecting all data fields & "Remove all" button for Remove Bulk Fields.</p>
+				<img src="assets/images/export-images-designer/select & remove.jpg" class="bordergrey_leftttbottom"><br>
+
+               	<p>Image below,Bulk Select on Specific Field-Groups: Perform bulk selections on specific field-groups like "Orders Group" or "Billing Group" with just one click, providing even more convenience and customization.</p>			
+				<img src="assets/images/export-images-designer/Fieldgroup.jpg" class="bordergrey_leftttbottom"><br>
+
+				<ul style="float: left;width:100%">
+					<li >Click here <strong>All Shipping Datas</strong> to select all shipping datas on the available shipping field group .</li><br>				
+				</ul>
+               	<p>Select File Formats: Export data in various formats, such as CSV, Excel, XML, and JSON, giving you flexibility and compatibility with different software and systems..</p>			
+				<img src="assets/images/export-images-designer/formats.jpg" class="bordergrey_leftttbottom"><br>
+
+				<p>Advanced Filtering: Filter your export woocommerce datas based on their selected filters allowed multiple-choice filter, ensuring you can precisely target and export the datas you need.</p>
+				<img src="assets/images/export-images-designer/select status.jpg" class="bordergrey_leftttbottom"><br>
+				
+				<p>Customer Name Filtering: Easily filter orders by customer name, and select multiple customer names simultaneously to narrow down your export results.
+				</p><br>											
+				<img src="assets/images/export-images-designer/customber name.jpg" class="bordergrey_leftttbottom"><br>
+
+				<p>Date Filtering: Utilize the date filtering option to select specific date ranges, allowing you to export orders within specific timeframes.</p><br>										
+				<img src="assets/images/export-images-designer/start date.jpg" class="bordergrey_leftttbottom"><br>
+
+				<p>Below image, Select a custom separator option to define how each product should be displayed in the export file. The data for each product will be separated by the chosen separator.</p><br>										
+				<img src="assets/images/export-images-designer/separator.jpg" class="bordergrey_leftttbottom"><br>
+
+				<p>Below image, As you hover over each selected field, a close icon (X) will appear.Click on the close icon to delete the field if you no longer want it in the export.</p><br>										
+				<img src="assets/images/export-images-designer/over-remove.jpg" class="bordergrey_leftttbottom"><br>
+				<ul>
+					<li>Once you've selected the data fields and applied the necessary filters, click the "Export" button.</li>
+					<li>The plugin will generate the export file with the chosen data fields, format, and custom separator option.</li>
+					<li>You will receive a success message, and the file will be available for download.</li><br>
+					<b>File Download Locations:</b>
+					<ul>
+						<li>Plugin Inside Admin/Uploads Folder</li>
+						<li>Default System Downloads Folder</li>
+					</ul>
+				
+				</ul> 
+				<p>For export customers, products , coupons and reviews the same process will be followed.</p>
+
+			<hr/>
+			<h2><span id="FrontEnd"><strong>3.2 Output view - <a href="#toc">top</a></strong></span></h2>
+			<p>  
+			<strong>Image below shows that, Once the export is complete, a success message will be displayed, and you can access the exported file in the designated locations as mentioned above. </strong><br/>
+			</p>
+			<p>images shows, Plugin Inside <b>plugins/sst-export-woocommerce-orders/admin/uploads</b> Folder: The exported file will be stored in the designated folder within the WordPress Admin area, making it easily accessible from the WordPress Admin dashboard.</p>
+			<img src="assets/images/export-images/adminfile.png" class="bordergrey_leftttbottom"><br>			
+
+			<p>Below images shows that, View the Exported file,</p>
+			<img src="assets/images/export-images/csvfile.png" class="bordergrey_leftttbottom"><br>
+
+
+			<hr/>
+			<p>Once again, thank you so much for purchasing this plugin. As we said at the beginning, We would be glad to help you, if you have any questions related to this plugin.</p> 
+			
+
+			<p class="append-bottom alt large"><strong>ShareSoft Technology</strong></p>
+			<p><a href="#toc">Go To Table of Contents</a></p>					
+			<hr class="space">
+			</p>
+				
+		</div>
+    </div><!-- end div .container -->
+</body>
+</html>
